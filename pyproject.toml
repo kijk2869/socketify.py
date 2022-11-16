@@ -1,0 +1,6 @@
+[tool.black]
+exclude = "src/socketify/uWebSockets"
+
+[tool.isort]
+profile = "black"
+skip = "src/socketify/uWebSockets"
